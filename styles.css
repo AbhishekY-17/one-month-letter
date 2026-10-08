@@ -111,12 +111,12 @@ button { font: inherit; }
 .letter-section[hidden] { display: none; }
 .letter-card { position: relative; width: 100%; max-width: 540px; margin: 0 auto; padding: 37px 25px 39px; overflow: hidden; border: 1px solid #f1c7d6; border-radius: 17px; background-color: #fffafd; background-image: radial-gradient(#edb8cc38 .7px, transparent .7px), linear-gradient(145deg, #fffefd 0%, #fff7fa 65%, #fffafd 100%); background-size: 9px 9px, auto; box-shadow: 0 13px 38px #c4557c22, 0 2px 7px #c4557c12; animation: paper-arrive 850ms cubic-bezier(.18,.76,.22,1) both; }
 .letter-date { margin: 0 0 18px; color: #bc6a89; font: 600 10px/1.4 system-ui, sans-serif; letter-spacing: .19em; text-align: center; text-transform: uppercase; }
-.letter-card h1 { margin: 0 0 25px; color: var(--dark-pink); font-size: clamp(27px, 7.2vw, 32px); font-weight: 400; line-height: 1.17; text-align: center; }
+.letter-card h1 { margin: 0 0 25px; color: var(--dark-pink); font-size: clamp(27px, 7.2vw, 32px); font-weight: 400; line-height: 1.17; text-align: left; }
 .letter-copy { color: #744458; font-size: 17px; line-height: 1.78; white-space: pre-wrap; }
 .letter-copy p { margin: 0 0 17px; }
 .letter-copy p:last-child { margin-bottom: 0; }
 .letter-closing { margin: 30px 0 0; color: #81445e; font-size: 16px; line-height: 1.7; }
-.letter-closing > span:first-of-type { color: var(--deep-pink); font: italic 29px/1.5 "Segoe Script", "Brush Script MT", cursive; }
+.script-accent { color: var(--deep-pink); font: italic 29px/1.5 "Segoe Script", "Brush Script MT", cursive; }
 .closing-heart { margin-left: 5px; color: var(--deep-pink); font-size: 20px; }
 .paper-heart { position: absolute; color: #e88aab; opacity: .72; }
 .paper-heart-top { top: 13px; right: 17px; font-size: 21px; transform: rotate(10deg); }
