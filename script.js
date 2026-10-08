@@ -12,8 +12,8 @@
 
   const hintCopy = [
     "A little closer… 💗",
-    "You found a secret ✨",
-    "One more, my love 💌",
+    " Hope you like it 🫣",
+    "One more, my prishu 💌",
   ];
   const vibration = [30, 40, 50, 70];
   const confettiColors = ["#ffd6e7", "#ffb6d2", "#ff8fba", "#e85d8e", "#ffffff", "#f7d9a6"];
